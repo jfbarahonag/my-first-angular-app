@@ -3,9 +3,11 @@
     <div class="col">
       <h1>Persons list:</h1>
       <ul>
-        <li class="hover-text" *ngFor="let person of persons">
+        <li class="hover-text">
           <app-person></app-person>
-          <span class="person"> {{ person.name }} - {{ person.age }} </span>
+        </li>
+        <li class="hover-text">
+          <app-person></app-person>
         </li>
       </ul>
     </div>
