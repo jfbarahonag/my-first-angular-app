@@ -4,8 +4,8 @@
   Edad: {{ age }}
 </p>
 
-<div (keyup)="0">
+<div (keyup)="getRepValue(keyInput.value)">
   <label>Repetidor</label>
   <input #keyInput type="text">
-  {{keyInput.value}}
+  {{repText}}
 </div>
