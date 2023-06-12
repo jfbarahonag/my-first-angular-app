@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Mi primer SPA en Angular';
+  greeting = 'Greetings from Angular'
 }
