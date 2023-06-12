@@ -1,6 +1,7 @@
 <h1>Persons list:</h1>
 <ul>
   <li class="hover-text" *ngFor="let person of persons">
+    <app-person></app-person>
     <span class="person"> {{ person.name }} - {{ person.age }} </span>
   </li>
 </ul>
