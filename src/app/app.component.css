@@ -1,0 +1,7 @@
+.hover-text {
+  transition: font-size 0.3s ease;
+}
+
+.hover-text:hover {
+  font-size: 2rem;
+}
