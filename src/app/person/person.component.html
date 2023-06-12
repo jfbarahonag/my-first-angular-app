@@ -3,3 +3,9 @@
   Apellido: {{ name.last }}
   Edad: {{ age }}
 </p>
+
+<div (keyup)="0">
+  <label>Repetidor</label>
+  <input #keyInput type="text">
+  {{keyInput.value}}
+</div>
