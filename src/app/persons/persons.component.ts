@@ -16,4 +16,6 @@ export class PersonsComponent {
       age: 24
     },
   ]
+
+  enableBtn: boolean = true;
 }
