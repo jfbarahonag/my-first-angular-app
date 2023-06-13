@@ -19,10 +19,15 @@ export class PersonsComponent {
 
   enableBtn: boolean = true;
 
+  title = '';
   message = 'There is no person in the list';
 
   addPerson() {
     this.message = 'New person added';
     alert('ok')
+  }
+
+  modifyTitle(event: Event) {
+    this.title = (<HTMLInputElement>event.target).value;
   }
 }

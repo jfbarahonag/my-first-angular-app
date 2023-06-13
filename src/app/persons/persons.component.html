@@ -10,14 +10,15 @@
         Add person
       </button>
       <p>{{ message }}</p>
-      <ul>
-        <li class="hover-text">
-          <app-person></app-person>
-        </li>
-        <li class="hover-text">
-          <app-person></app-person>
-        </li>
-      </ul>
+      <app-person></app-person>
+
+      <label>Titulo Persona</label>
+      <input
+        type="text"
+        class="form-control"
+        (input)="modifyTitle($event)"
+      >
+      {{title}}
     </div>
   </div>
 </div>
