@@ -26,8 +26,4 @@ export class PersonsComponent {
     this.message = 'New person added';
     alert('ok')
   }
-
-  modifyTitle(event: Event) {
-    this.title = (<HTMLInputElement>event.target).value;
-  }
 }
