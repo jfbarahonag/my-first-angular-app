@@ -2,7 +2,14 @@
   <div class="row">
     <div class="col">
       <h1>Persons list:</h1>
-      <button class="btn btn-primary"[disabled]="!enableBtn">Add person</button>
+      <button
+        class="btn btn-primary"
+        [disabled]="!enableBtn"
+        (click)="addPerson()"
+      >
+        Add person
+      </button>
+      <p>{{ message }}</p>
       <ul>
         <li class="hover-text">
           <app-person></app-person>

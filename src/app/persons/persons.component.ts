@@ -18,4 +18,11 @@ export class PersonsComponent {
   ]
 
   enableBtn: boolean = true;
+
+  message = 'There is no person in the list';
+
+  addPerson() {
+    this.message = 'New person added';
+    alert('ok')
+  }
 }
